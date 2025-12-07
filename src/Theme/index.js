@@ -1,52 +1,49 @@
 import { createTheme } from '@mui/material/styles';
 
-// Create a theme instance.
+// Création d'un thème à dominante bleue pour NKUL TECH
 const theme = createTheme({
     typography: {
         fontFamily: "Inter"
-        // 400 Regular
-        // 500 Medium
-        // 600 Semi-Bold
-        // 700 Bold
-        // 800 Extra-Bold
+        // 400 Regular, 500 Medium, 600 Semi-Bold, 700 Bold, 800 Extra-Bold
     },
     palette: {
         text: {
-            primary: "#121315", // Default Text Color
-            secondary: "#FF4F3E" // Secondary Text Color
+            primary: "#121315", // Noir par défaut (conservé)
+            secondary: "#1E88E5" // Utilisé la couleur primaire comme couleur secondaire du texte
         },
         background: {
-            default: "#FFFFFF" // Default Background Color
+            default: "#FFFFFF" // Blanc par défaut (conservé)
         },
         primary: {
-            main: "#FF4F3E", // Document Main Primary Color
-            light: "#CECECE", // Document Light Color (Button Background)
-            box_shadow_black: " #0000001c", // Box Shadow Black (Header Sticky)
-            success: "#4CAF50", // SuccessMessage Color
-            box_shadow_client: "#0000001c", /// Box Shadow Clinet Slider
-            box_show_blog: "#FF4F3E21", //Box Shadow Blog Section
-            box_shadow_blog_2: "#0000001a", // Box Shadow Blog Category
-            divider: "#AEAEAE", // Divider Color (All Section Divider)
-            social_bg: "#E7E7E7", // Social Background Color
-            social_color: "#415674", // Social Icon Color
-            inputBorder: "#0000001f", //For NewsLetter Input Border Color
-            HeroGradient: "linear-gradient(to right, #FFF , #FF4F3E42)", // Gradient (Hero Section)
-            WorkGradient: "linear-gradient(to right, #FF4F3E42, #FFF)", // Gradient (Portfolio Section)
-            ContactGradient: "linear-gradient(to right, #FF4F3E42, #FFFFFF4A)", // Gradient (Contact Section)
+            main: "#1E88E5", // NOUVELLE COULEUR PRIMAIRE : Bleu Cobalt (Professionnel)
+            light: "#64B5F6", // NOUVEAU : Bleu Clair (pour les fonds légers ou accents)
+            box_shadow_black: " #0000001c", // Box Shadow Black (conservé)
+            success: "#4CAF50", // Succès (Vert conservé)
+            box_shadow_client: "#0000001c", /// Box Shadow Clinet Slider (conservé)
+            box_show_blog: "#1E88E521", // NOUVEAU : Box Shadow Blog Section (Bleu avec transparence)
+            box_shadow_blog_2: "#0000001a", // Box Shadow Blog Category (conservé)
+            divider: "#AEAEAE", // Divider Color (conservé)
+            social_bg: "#E7E7E7", // Social Background Color (conservé)
+            social_color: "#415674", // Social Icon Color (conservé)
+            inputBorder: "#0000001f", // For NewsLetter Input Border Color (conservé)
+            // MISE À JOUR DES DÉGRADÉS (Remplacement du Rouge par le Bleu)
+            HeroGradient: "linear-gradient(to right, #FFF , #1E88E542)", // NOUVEAU : Dégradé du Blanc au Bleu transparent
+            WorkGradient: "linear-gradient(to right, #1E88E542, #FFF)", // NOUVEAU : Dégradé du Bleu transparent au Blanc
+            ContactGradient: "linear-gradient(to right, #1E88E542, #FFFFFF4A)", // NOUVEAU : Dégradé du Bleu transparent au Blanc très transparent
         }
     },
     breakpoints: {
         values: {
-            xxs: 0, // Double Extra Small Devices
-            xs: 360, // Extra Small Devices
-            sm: 480, // Small Devices
-            msm: 576, // Medium Small Devices
-            lsm: 640, // Large Small Devices
-            smd: 768, // Small Medium Devices
-            md: 992, // Medium Devices
-            lg: 1200, // Large Devices
-            xl: 1536, // Extra Small Devices
-            xxl: 1980 // Double Extra Devices
+            xxs: 0, 
+            xs: 360, 
+            sm: 480, 
+            msm: 576, 
+            lsm: 640, 
+            smd: 768, 
+            md: 992, 
+            lg: 1200, 
+            xl: 1536, 
+            xxl: 1980 
         },
     },
     components: {

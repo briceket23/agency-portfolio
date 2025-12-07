@@ -1,8 +1,8 @@
 export default [
     { name: "Home", Id: "home" },
-    { name: "About", Id: "about" },
+    { name: "À Propos", Id: "about" },
     { name: "Portfolio", Id: "portfolio" },
     { name: "Client", Id: "client" },
-    { name: "Blog", Id: "blog" },
+    { name: "Incubateur", Id: "blog" },
     { name: "Contact", Id: "contact" },
 ]

@@ -1,24 +1,24 @@
 import { Box, Typography, ButtonBase } from "@mui/material";
 import { Link } from "react-scroll";
 
-// Icons
+// Icônes
 import ArrowForwardTwoToneIcon from '@mui/icons-material/ArrowForwardTwoTone';
 
-//Styles
+// Styles
 import styles from "Styles/Hero/HeroContent.styles";
 
 const HeroContent = () => {
     return (
         <Box sx={styles.Container}>
             <Typography variant="h2" component="h2" sx={styles.Title}>
-                We are <br />
-                Code Station21
+                Nous Sommes <br />
+                NKUL TECH
             </Typography>
             <Typography variant="h6" component="h6" sx={styles.Slogan}>
-                Your Dream, We Build
+                Nous Construisons l’intelligence de demain
             </Typography>
             <Typography variant="body1" component="p" sx={styles.Description}>
-                Where an idea turns into a project. Help your startups, business, and ideas to grow more and solve the problem with the power of code.
+                Là où une idée se transforme en projet. Aidez vos startups, entreprises et idées à grandir davantage et à résoudre les problèmes avec la puissance du code.
             </Typography>
             <Link
                 to="portfolio"
@@ -27,7 +27,7 @@ const HeroContent = () => {
                 duration={500}
             >
                 <ButtonBase sx={styles.Button}>
-                    See Projects
+                    Consultez Nos Projets
                     <ArrowForwardTwoToneIcon />
                 </ButtonBase>
             </Link>
