@@ -56,7 +56,7 @@ const Drawers = ({ toggleDrawer }) => {
                 </Box>
                 <Box>
                     <Typography variant="body1" component="p">
-                        171/5, Borhanpur Lane, 6 Hazaribagh Road, Dhaka 1211
+                        Logpom, Doala, Cameroun
                     </Typography>
                 </Box>
             </Stack>
@@ -65,10 +65,10 @@ const Drawers = ({ toggleDrawer }) => {
                     <EmailIcon />
                 </Box>
                 <Box>
-                    <Link href="mailto:info@codestation21.com">
+                    <Link href="mailto:fomazoutchinda@gmail.com">
                         <a>
                             <Typography variant="body1" component="p">
-                                info@codestation21.com
+                                fomazoutchinda@gmail.com
                             </Typography>
                         </a>
                     </Link>
@@ -79,10 +79,10 @@ const Drawers = ({ toggleDrawer }) => {
                     <PhoneIcon />
                 </Box>
                 <Box>
-                    <Link href="tel:+8801552938771">
+                    <Link href="tel:+237 695 718 058">
                         <a>
                             <Typography variant="body1" component="p">
-                                +880 1552-938771
+                                +237 695 718 058
                             </Typography>
                         </a>
                     </Link>
